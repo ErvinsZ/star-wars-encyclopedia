@@ -7,7 +7,7 @@ interface CharacterListProps {
   character: Character;
 }
 
-const CharacterList: React.FC<CharacterListProps> = ({
+const CharacterDetails: React.FC<CharacterListProps> = ({
   character
 }) => {
   return (
@@ -33,4 +33,4 @@ const CharacterList: React.FC<CharacterListProps> = ({
   );
 };
 
-export default CharacterList;
+export default CharacterDetails;

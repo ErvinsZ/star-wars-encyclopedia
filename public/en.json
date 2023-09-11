@@ -14,5 +14,9 @@
       "unknown": "Unknown"
     },
     "readMore":"Read more",
-    "back":"Go Back"
+    "back":"Go Back",
+    "previous":"Previous",
+    "next":"Next",
+    "page":"Page",
+    "of":"of"
   }
