@@ -1,0 +1,16 @@
+{   
+    "title":"Star Wars Characters",
+    "data_error":"Error while fetching data",
+    "loading":"Loading...",
+    "character": {
+      "name": "Name",
+      "birthYear": "Birth Year",
+      "gender":"Gender",
+      "height":"Height",
+      "homeworld": "Home World",
+      "species": "Species",
+      "films":"Films",
+      "unknown": "Unknown"
+    },
+    "readMore":"Read more"
+  }
