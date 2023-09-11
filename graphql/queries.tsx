@@ -2,7 +2,7 @@
 import { gql } from '@apollo/client';
 
 export const GET_CHARACTERS = gql`
-query GET_CHARACTER_DETAILS{
+query GET_CHARACTERS{
   allPeople {
     people {
       id
