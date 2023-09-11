@@ -2,6 +2,7 @@
     "title":"Star Wars Characters",
     "data_error":"Error while fetching data",
     "loading":"Loading...",
+    "characterDetails":"Character Details",
     "character": {
       "name": "Name",
       "birthYear": "Birth Year",
@@ -12,5 +13,6 @@
       "films":"Films",
       "unknown": "Unknown"
     },
-    "readMore":"Read more"
+    "readMore":"Read more",
+    "back":"Go Back"
   }

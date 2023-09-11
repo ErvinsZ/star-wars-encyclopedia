@@ -10,9 +10,9 @@ export interface Character {
       name: string;
       climate: string;
     };
-    films: {
-      title: string;
-    }[];
+    filmConnection: {
+      films: Film[];
+    };
   }
 
 export interface Film{

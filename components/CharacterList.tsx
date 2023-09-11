@@ -15,7 +15,7 @@ const CharacterList: React.FC<CharacterListProps> = ({
     <div>
         <div className='flex flex-wrap justify-around gap-0.5'>
             {characters.map((character) => (
-                <div key={character.name} className='w-[150px] min-h-[140px] border-2 p-2 mb-2'>
+                <div key={character.id} className='w-[150px] min-h-[140px] border-2 p-2 mb-2'>
                     <div className='mb-2'>
                         <p> <span className='font-medium'> {en.character.name}: </span> <br/> {character.name} </p>
                         <p> <span className='font-medium'> {en.character.gender}: </span> <br/> {character.gender} </p> 
