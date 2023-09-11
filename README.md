@@ -1,1 +1,1 @@
-# star-wars-encyclopedia
+# Star Wars Encyclopedia
