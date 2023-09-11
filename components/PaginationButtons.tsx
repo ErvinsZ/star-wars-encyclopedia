@@ -22,12 +22,12 @@ const PaginationButtons: React.FC<PaginationButtonsProps> = ({
       <div className='w-[150px] space-x-4 flex'>
         <div className='w-[60px]'>
             {currentPage > 1 && (
-            <button onClick={() => handlePageChange(currentPage - 1)} className='font-medium text-sky-600'>{en.previous}</button>
+            <button onClick={() => handlePageChange(currentPage - 1)} className='font-medium text-sky-600	'>{en.previous}</button>
             )}
         </div>
         <div className='w-[60px]'>   
             {currentPage < totalPages && (
-            <button onClick={() => handlePageChange(currentPage + 1)} className='font-medium text-sky-600'>{en.next}</button>
+            <button onClick={() => handlePageChange(currentPage + 1)} className='font-medium text-sky-600	'>{en.next}</button>
             )}
         </div>
 

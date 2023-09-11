@@ -18,5 +18,6 @@
     "previous":"Previous",
     "next":"Next",
     "page":"Page",
-    "of":"of"
+    "of":"of",
+    "placeholder":"Search characters..."
   }

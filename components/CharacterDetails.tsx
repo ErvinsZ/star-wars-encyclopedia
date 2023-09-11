@@ -13,7 +13,7 @@ const CharacterDetails: React.FC<CharacterListProps> = ({
   return (
     <div>
         <h1>{en.characterDetails}</h1>
-        <div  className='w-[200px] border-2 p-2 mb-2'>
+        <div  className='w-[200px] border-2  rounded p-2 mb-2'>
             <p> <span className='font-medium'> {en.character.name}: </span> <br/> {character.name} </p>
             <p> <span className='font-medium'> {en.character.birthYear}: </span> <br/> {character.birthYear} </p>
             <p> <span className='font-medium'> {en.character.gender}: </span> <br/> {character.gender} </p>

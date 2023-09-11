@@ -4,7 +4,7 @@ import { GET_CHARACTERS } from '../../graphql/queries'
 import { useRouter } from 'next/router';
 import en from '../../public/en.json'
 import {CharacterDetails, BackButton, Loading, Error} from '../../components';
-import { Character, Film } from '../../types/character';
+import { Character} from '../../types/character';
 
 const CharacterDetailsPage: React.FC = () => {
   const router = useRouter();
